@@ -1,3 +1,4 @@
+//Time = O(n) , Space = O(1)
 function maxArea(height: number[]): number {
   let left = 0,
     right = height.length - 1;
